@@ -1,4 +1,4 @@
-var pos = 0;
+    var pos = 0;
     const pacArray = [
         ['PacMan1.png', 'PacMan2.png'],
         ['PacMan3.png', 'PacMan4.png']
