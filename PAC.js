@@ -1,5 +1,5 @@
 var pos = 0;
-const pacArray = [
+const pacArray = []
     ['PacMan1.png', 'PacMan2.png'],
     ['PacMan3.png', 'PacMan4.png']
 ];
@@ -35,7 +35,6 @@ function makePac() {
 }
 
 function update() {
-    //loop over pacmen array and move each one and move image in DOM
     pacMen.forEach((item) => {
         checkCollisions(item)
         item.position.x += item.velocity.x;
