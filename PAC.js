@@ -56,4 +56,5 @@ function checkCollisions(item) {
 }
 
 function makeOne() {
-    pacMen.push(makePac()); // add a new PacMan
+    pacMen.push(makePac()
+};
