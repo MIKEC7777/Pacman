@@ -1,5 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #fafbfc;
+
+  body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
   }
