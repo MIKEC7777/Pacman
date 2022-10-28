@@ -1,5 +1,5 @@
-var pos = 0;
-const pacArray = [
+    var pos = 0;
+    const pacArray = [
         ['PacMan1.png', 'PacMan2.png'],
         ['PacMan3.png', 'PacMan4.png']
     ];
@@ -29,7 +29,7 @@ const pacArray = [
         newimg.style.left = position.x;
         newimg.style.top = position.y;
 
-        // add new Child image to game
+      // add new Child image to game
         game.appendChild(newimg);
         // return details in an object
         return {
@@ -53,7 +53,9 @@ const pacArray = [
     }
 
     function checkCollisions(item) {
-      
+        //
+        // detect collision with all walls and make pacman bounce
+        //
         if (
             item.position.x + item.velocity.x + item.newimg.width > window.innerWidth ||
             item.position.x + item.velocity.x < 0
@@ -69,4 +71,6 @@ const pacArray = [
     
 
     function makeOne() {
+        pacMen.push(makePac()); // add a new PacMan
+    }
     
